@@ -1,0 +1,62 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.keystore
+*.jks
+*.pfx
+*.cer
+*.pem
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio / VS Code
+.vscode/
+.vs/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.flutter-plugins
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Windows C++ build artifacts
+windows/flutter/ephemeral/
+windows/runner/Debug/
+windows/runner/Release/
+windows/runner/Profile/
+
+# Android Studio / Gradle artifacts
+.gradle/
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/.gradle
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
