@@ -6,7 +6,6 @@ AppPublisher=Kappogy
 DefaultDirName={autopf}\Kappogy Share
 DefaultGroupName=Kappogy Share
 AllowNoIcons=yes
-; Require admin privileges to install to Program Files
 PrivilegesRequired=admin
 OutputDir=build\installer
 OutputBaseFilename=Kappogy-Share-Setup-1.0.0
@@ -23,7 +22,6 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 [Files]
 Source: "build\windows\x64\runner\Release\kappogy_share.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "build\windows\x64\runner\Release\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-; Note: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
 Name: "{group}\Kappogy Share"; Filename: "{app}\kappogy_share.exe"
